@@ -12,7 +12,7 @@
 
 > ## Website Screenshoot <br>
 >
-> ![Website ScreenShoot](https://i.ibb.co/bKWVgzt/Screenshot-2021-11-15-045255.png) ![Website ScreenShoot](https://i.ibb.co/PhFqsBm/Screenshot-2021-11-15-045431.png)
+> ![Website ScreenShoot](https://i.ibb.co/bKWVgzt/Screenshot-2021-11-15-045255.png) ![Website ScreenShoot](https://i.ibb.co/wKXg9GQ/Screenshot-2021-11-15-045812.png)
 
 ## Available Scripts
 
