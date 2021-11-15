@@ -159,7 +159,7 @@
 
 .humberger_close i,
 .humberger_nav_icon i {
-  color: #fff;
+  color: var(--main-text-color);
   font-size: 26px;
   padding: 10px;
   display: none;

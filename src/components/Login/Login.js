@@ -85,9 +85,14 @@ const SignUp = ({ signUp }) => {
                 >
                   Back to Home
                 </Link>
-                <img className="img-fluid" style={{
-                  height: 'auto'
-                }} src={unloack} alt="" />
+                <img
+                  className="img-fluid"
+                  style={{
+                    height: "auto",
+                  }}
+                  src={unloack}
+                  alt=""
+                />
               </Col>
               <Col
                 style={{ flexDirection: "column", alignItems: "start" }}
@@ -98,7 +103,7 @@ const SignUp = ({ signUp }) => {
                 <div className="form">
                   <div className="form_header">
                     <h1>Welcome Back!</h1>
-                    <p>login to continue</p>
+                    <p>{signUp ? "Sign Up" : "login"} to continue</p>
                   </div>
                   <form onSubmit={(e) => e.preventDefault()}>
                     {signUp ? (

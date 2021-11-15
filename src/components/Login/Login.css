@@ -101,7 +101,7 @@
 }
 
 .form_header {
-  color: #fff;
+  color: var(--main-text-color);
   margin-left: 50px;
 }
 

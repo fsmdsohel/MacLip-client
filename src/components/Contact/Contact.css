@@ -34,7 +34,7 @@
 }
 
 .form-group>input {
-  color: #fff;
+  color: var(--main-text-color);
 }
 
 .form-group>textarea {
@@ -43,12 +43,16 @@
 
 .form-group>textarea:focus,
 .form-group>input:focus {
-  box-shadow: rgba(250, 50, 100, 0.6) 0px 0px 0px 3px;
-  color: #fff;
+  box-shadow: rgb(166, 185, 174, 0.6) 0px 0px 0px 3px;
+  color: var(--main-text-color);
 }
 
 .form-group>input::placeholder {
-  color: #ffffffaf;
+  color: var(--main-color);
+}
+
+.form-group>input::placeholder:hover {
+  color: var(--main-text-color);
 }
 
 .contact-form form textarea.form-control {

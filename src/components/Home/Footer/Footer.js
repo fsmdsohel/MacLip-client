@@ -37,24 +37,24 @@ const Footer = () => {
                 fontSize: "14px",
                 color: "var(--main-color)",
               }}
-              href="https://github.com/fsmdsohel"
+              href="https://github.com/Razia712"
             >
-              Sohel Rana
+              Razia Sultana
             </a>
           </p>
           <div className="social_links">
             <div className="social_link">
-              <a href="https://www.facebook.com/fsmdsohel1">
+              <a href="/">
                 <i className="fab fa-facebook-f"></i>
               </a>
             </div>
             <div className="social_link">
-              <a href="https://github.com/fsmdsohel">
+              <a href="/">
                 <i className="fab fa-github"></i>
               </a>
             </div>
             <div className="social_link">
-              <a href="https://www.linkedin.com/in/fsmdsohel">
+              <a href="/">
                 <i className="fab fa-linkedin-in"></i>
               </a>
             </div>

@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useHistory, useParams } from "react-router";
-import carPhoto from "../../../assests/images/undraw_off_road_-9-oae.svg";
+import carPhoto from "../../../assests/images/about.png";
 import Card from "../../Home/Card/Card";
 
 const ProductDetails = () => {

@@ -44,7 +44,7 @@ const Banner = () => {
               width: "80%",
               height: "80vh",
             }}
-            src="https://www.youtube.com/embed/M2VSTnS29wc"
+            src="https://www.youtube.com/embed/_Omj5Nxzh3I"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

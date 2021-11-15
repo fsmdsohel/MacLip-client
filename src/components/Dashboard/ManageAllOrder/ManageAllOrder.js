@@ -140,7 +140,13 @@ const ManageAllOrder = () => {
                         <td style={{ fontSize: "14px" }}>{order.email}</td>
                         <td style={{ fontSize: "14px" }}>{order.title}</td>
                         <td>
-                          <Link style={{ fontSize: "14px" }} to="/">
+                          <Link
+                            style={{
+                              fontSize: "14px",
+                              color: "var(--main-text-color)",
+                            }}
+                            to="/"
+                          >
                             View
                           </Link>
                         </td>

@@ -4,9 +4,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <Container className="my-5">
-      <h1 className="text-center text-white text-capitalize fw-bold my-5">
-        contact Form
-      </h1>
+      <h1 className="text-center text-capitalize fw-bold my-5">contact Form</h1>
       <div className="contact-form">
         <form onSubmit={(e) => e.preventDefault()}>
           <Row>

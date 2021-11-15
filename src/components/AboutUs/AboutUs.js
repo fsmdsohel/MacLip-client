@@ -1,4 +1,4 @@
-import aboutPhoto from "../../assests/images/undraw_preferences_popup_wbfw.svg";
+import aboutPhoto from "../../assests/images/about.png";
 import "./AboutUs.css";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -7,9 +7,6 @@ const AboutUs = () => {
   return (
     <>
       <Container className="mb-5">
-        <div className="about_header text-white text-center my-5">
-          <h1 className="fw-bold">About us</h1>
-        </div>
         <Row
           style={{
             alignItems: "center",
@@ -26,31 +23,34 @@ const AboutUs = () => {
               alt=""
             />
           </Col>
-          <Col lg="6" md="12" className="text-white">
+          <Col lg="6" md="12">
             <p
               className="fw-bold mb-2"
               style={{
-                color: "var(--main-color)",
+                color: "var(--main-text-color)",
               }}
             >
-              Our short story
+              WELCOME TO MacLip
             </p>
-            <h3 className="fw-bold mb-4">We delivered car thousand times</h3>
+            <h3 className="fw-bold mb-4">About Us</h3>
             <p
               style={{
                 fontSize: "14px",
               }}
             >
-              Most of Sorum's vehicles are still covered under their original
-              manufacturer's warranty, but the coverage may be limited. Sorum's
-              Vehicle Service Protection (VSP) product helps protect you in the
-              event of unexpected expenses.
+              Lipstick: the iconic product that made MAC famous. Shade, define,
+              and accentuate the lips with hundreds of hues in high-fashion
+              textures. Find Info On Health Questions. Your Health Journey
+              Starts Today. Search Now. Trustworthy Sources. Browse Multiple
+              Sources. Find Fast Results. Find Info Instantly. Types:
+              Trustworthy Sources, Find Fast Search Results, Reliable
+              Information.
               <br />
               <br />
-              If your vehicle is ever declared a total loss due to an accident,
-              theft or natural disaster, your insurance company might only
-              reimburse you for their assessed market value of the vehicle,
-              leaving you to pay the balance or "gap".
+              The top spot was unsurprisingly cinched by a shade popularized by
+              the Kardashian Jenner clan, MAC Velvet Teddy. According to the
+              e-tailer, this lipstick is not only the most popular MAC Lipstick
+              shade, it's also the world's favourite beauty product overall.
             </p>
             <Link className="btn_round fs-6 my-4" to="/contact">
               About More

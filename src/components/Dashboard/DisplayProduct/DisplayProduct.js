@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useHistory, useParams } from "react-router";
-import carPhoto from "../../../assests/images/undraw_off_road_-9-oae.svg";
+import carPhoto from "../../../assests/images/about.png";
 
 const DisplayProduct = () => {
   const [product, setProduct] = useState({});
@@ -29,8 +29,8 @@ const DisplayProduct = () => {
               alt=""
             />
             <div className="card_content my-4">
-              <h5 className="text-white">{product.title}</h5>
-              <p>{product.desc}</p>
+              <h5 className="fw-bold">{product.title}</h5>
+              <p className="text-dark">{product.desc}</p>
               <div className="d-flex  align-items-center">
                 <h5 style={{ marginBottom: 0 }}>Price {"$" + product.price}</h5>
               </div>

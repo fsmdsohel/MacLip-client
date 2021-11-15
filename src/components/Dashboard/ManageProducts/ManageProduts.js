@@ -105,10 +105,30 @@ const ManageProduts = () => {
             <tbody>
               {cars.map((car) => (
                 <tr key={car._id + "sodsfsfs"}>
-                  <td>{car.title}</td>
-                  <td className="amount">{car.price}</td>
+                  <td
+                    style={{
+                      fontWeight: 500,
+                    }}
+                  >
+                    {car.title}
+                  </td>
+                  <td
+                    style={{
+                      fontWeight: 500,
+                    }}
+                    className="amount"
+                  >
+                    {car.price}
+                  </td>
                   <td>
-                    <Link to={`display-product/${car._id}`}>View</Link>
+                    <Link
+                      to={`display-product/${car._id}`}
+                      style={{
+                        color: "var(--main-text-color)",
+                      }}
+                    >
+                      View
+                    </Link>
                   </td>
                   <td>
                     <button

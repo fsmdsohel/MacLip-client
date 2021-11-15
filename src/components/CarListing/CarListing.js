@@ -41,10 +41,10 @@ const CarListing = () => {
           <h1
             className="mb-5"
             style={{
-              color: "var(--main-color)",
+              color: "var(--main-text-color)",
             }}
           >
-            Get Cash for Your Car
+            Pick Your Products
           </h1>
         </div>
         {cars.length === 0 ? (
